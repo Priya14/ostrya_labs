@@ -1,0 +1,416 @@
+%body#page-top.index{"data-pinterest-extension-installed" => "cr1.3.4"}
+  / Navigation
+  %nav.navbar.navbar-default.navbar-fixed-top.navbar-shrink
+    
+    .col-sm-5
+      %a.page-scroll{:href => "#page-top"} 
+        %img{:alt => "Search", :width => "50%", :height => "50%",:border => "0", :src => "/assets/3.png"}/
+      %h3
+        %i
+         
+          clean code matters
+    
+
+    .container
+      .navbar-header.page-scroll
+        %button.navbar-toggle{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+          %span.sr-only Toggle navigation
+          %span.icon-bar
+          %span.icon-bar
+          %span.icon-bar
+
+      #bs-example-navbar-collapse-1.collapse.navbar-collapse
+        %ul.nav.navbar-nav.navbar-right
+          %li.hidden.active
+            %a{:href => "#page-top"}
+          %li
+            %a.page-scroll{:href => "#projects"} Projects
+          %li
+            %a.page-scroll{:href => "#technologies"} Technologies
+          %li
+            %a.page-scroll{:href => "#training"} Training
+          %li
+            %a.page-scroll{:href => "#blog"} Blog
+          %li
+            %a.page-scroll{:href => "#team"} Team
+          %li
+            %a.page-scroll{:href => "#contact"} Contact
+
+  %header
+    .container
+      %br
+      %br
+      .intro-text
+        .intro-lead-in 
+        .intro-heading 
+
+  %section#projects.bg-light-gray
+    .container
+      .row
+        .col-lg-12.text-center
+          %h2.section-heading Projects
+      %br
+      %br
+
+      .row.text-center
+        .col-md-3
+          %a.slideLink
+            .slideContainer
+              %span.icon.fa.fa-mortar-board{:style => "color: #7F0000;"}
+              %p.title 
+                .text-color
+                  %h4 Educational ERP
+              %p.summary
+                An end to end solution for educational institutions with a lot of emphasis on communication between various stakeholders.
+        .col-md-3
+          %a.slideLink
+            .slideContainer
+              %span.icon.fa.fa-users{:style => "color: #7F0000;"}
+              %p.title
+                .text-color
+                  %h4 Examination  Controller
+              %p.summary Integrating all the functionalities with respect to examination controller module in colleges.
+        .col-md-3
+          %a.slideLink
+            .slideContainer
+              %span.icon.fa.fa-clock-o{:style => "color: #7F0000;"}
+              %p.title 
+                .text-color
+                  %h4 Online Examination Package
+              %p.summary A dynamically run online examination module with multi level authentication.Fully flexible and customization examination functionalities available.
+        .col-md-3
+          %a.slideLink
+            .slideContainer
+              %span.icon.fa.fa-building-o{:style => "color: #7F0000;"}
+              %p.title
+                .text-color
+                  %h4 Property Management System
+              %p.summary Solution to manage rental requirements for small to medium level properties in the US.
+      %br
+      %br
+      %br
+     
+      .row.text-center
+        .col-md-3
+          %a.slideLink
+            .slideContainer
+              %span.icon.fa.fa-cloud{:style => "color: #7F0000;"}
+              %p.title 
+                .text-color
+                  %h4 Online Social Marketing Application
+              %p.summary  A perfect place for corporate employees to check out their social marketing needs.
+        .col-md-3
+          %a.slideLink
+            .slideContainer
+              %span.icon.fa.fa-comments-o{:style => "color: #7F0000;"}
+              %p.title 
+                .text-color
+                  %h4 Online Property Deal Application
+              %p.summary An integration platform for buyers, sellers and inter mediators to transact on property deals.
+        .col-md-3
+          %a.slideLink
+            .slideContainer
+              %span.icon.fa.fa-bank{:style => "color: #7F0000;"}
+              %p.title 
+                .text-color
+                  %h4 End to End Benefit Fund Solution
+              %p.summary Solution for a rapidly expanding small segment bank covering all aspects of benefit fund transactions.
+        .col-md-3
+          %a.slideLink
+            .slideContainer
+              %span.icon.fa.fa-user{:style => "color: #7F0000;"}
+              %p.title
+                .text-color
+                  %h4 Consumer Application
+              %p.summary RESTful services for a mobile client.Designed for high Availability & Scalability.Javascript based web app.
+
+
+  %section#technologies.bg-light-gray
+    .container
+      .row
+        .col-lg-12.text-center
+          %h2.section-heading Technologies
+
+      .row
+        .col-md-4.col-sm-6.portfolio-item
+          %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal1"}
+            -# .portfolio-hover
+            -#   .portfolio-hover-content
+            -#     %i.fa.fa-plus.fa-3x
+            %img.img-responsive{:alt => "", :src => "/assets/oie_6817ZDJ6CHpI.jpg"}
+            .portfolio-caption
+              %p
+                = link_to "Learn here...!" , 'http://rubyonrails.org/', :target => "_blank"
+              
+        .col-md-4.col-sm-6.portfolio-item
+          %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal2"}
+            -# .portfolio-hover
+            -#   .portfolio-hover-content
+            -#     %i.fa.fa-plus.fa-3x
+            %img.img-responsive{:alt => "", :src => "/assets/angular.jpg"}
+            .portfolio-caption
+              %p
+                = link_to "Learn here..!","https://docs.angularjs.org/tutorial", :target => "_blank"
+        .col-md-4.col-sm-6.portfolio-item
+          %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal3"}
+            -# .portfolio-hover
+            -#   .portfolio-hover-content
+            -#     %i.fa.fa-plus.fa-3x
+            %img.img-responsive{:alt => "", :src => "/assets/postgresql.gif"}
+            .portfolio-caption
+              %p
+                = link_to "Learn here..!" , "http://www.postgresql.org/", :target => "_blank"
+
+        .col-md-4.col-sm-6.portfolio-item
+          %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal4"}
+            -# .portfolio-hover
+            -#   .portfolio-hover-content
+            -#     %i.fa.fa-plus.fa-3x
+            %img.img-responsive{:alt => "", :src => "/assets/html.png"}
+            .portfolio-caption
+              %p
+                = link_to "Learn here..! ", "http://www.w3.org/TR/html5/", :target => "_blank"
+        .col-md-4.col-sm-6.portfolio-item
+          %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal5"}
+            -# .portfolio-hover
+            -#   .portfolio-hover-content
+            -#     %i.fa.fa-plus.fa-3x
+            %img.img-responsive{:alt => "", :src => "/assets/css.jpg"}
+            .portfolio-caption
+              %p
+                = link_to "Learn here...!" , 'http://www.w3.org/Style/CSS/Overview.en.html', :target => "_blank"
+        .col-md-4.col-sm-6.portfolio-item
+          %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal6"}
+            -# .portfolio-hover
+            -#   .portfolio-hover-content
+            -#     %i.fa.fa-plus.fa-3x
+            %img.img-responsive{:alt => "", :src => "/assets/js.png"}
+            .portfolio-caption
+              %p
+                = link_to "Learn here..!" , "https://developer.mozilla.org/en/docs/Web/JavaScript", :target => "_blank"
+
+  %section#training
+    .container
+      .row
+        .col-lg-12.text-center
+          %h2.section-heading Training
+          %h3.section-subheading.text-muted
+
+      .row
+        .col-lg-12
+          %ul.timeline
+            %li
+              .timeline-image
+                %br
+                           
+                %h4
+                  ROR
+                  %br
+                  2012
+                
+              .timeline-panel
+                .timeline-heading
+                  
+                  %h3.subheading
+                    .black
+                      Ruby on Rails
+                .timeline-body
+                  %p
+                    %h4
+                      This workshop will help you learn MVC, Gems, Authentication, Associations and much more.
+            %li.timeline-inverted
+              .timeline-image
+                %br
+                           
+                %h4
+                  BDD
+                  %br
+                  2013
+
+              .timeline-panel
+                .timeline-heading
+              
+                  %h3.subheading
+                    .black
+                      Behaviour Driven Development
+                .timeline-body
+                  %p
+                    %h4 This workshop will help you learn about Ruby on Rails,Developing Rails 3.0 app, Distributed Version Control with Github, Introduction to TDD & BDD,Deploying the application to the cloud.
+            %li
+              .timeline-image
+                %br
+                           
+                %h4
+                  Angular JS
+                  %br
+                  2014
+
+              .timeline-panel
+                .timeline-heading
+                
+                  %h3.subheading 
+                    .black
+                      Angular Javascript
+                .timeline-body
+                  %p
+                    %h4 This workshop will  help you learn directives, expressions, templates, data binding,Controllers, Modules, Events, DOM, Forms, Input, Validation, Http, and much more.
+  / Team Section
+  %section#blog.bg-light-gray
+    .container
+      .row
+        .col-lg-12.text-center
+          %h2.section-heading Blogs
+          = render 'blog'
+
+
+  %section#team.bg-light-gray
+    .container
+      .row
+        .col-lg-12.text-center
+          %h2.section-heading Our Team
+
+      
+      .row
+        .col-sm-3
+          .team-member
+            %img.img-responsive.img-circle{:alt => "", :src => "/assets/gopika.jpg"}
+              %h4 GOPIKA UK
+              %p.text-muted Director & CEO
+
+        .col-sm-3
+          .team-member
+            %img.img-responsive.img-circle{:alt => "", :src => "/assets/arun.jpg"}
+              %h4 ARUN VYDIANATHAN
+              %p.text-muted Founder & Technical Advisor
+
+        .col-sm-3
+          .team-member
+            %img.img-responsive.img-circle{:alt => "", :src => "/assets/hari.jpg"}
+              %h4 Dr. SRIHARI V
+              %p.text-muted Director, Marketing
+        .col-sm-3
+          .team-member
+            %img.img-responsive.img-circle{:alt => "", :src => "/assets/srikanth.jpg"}
+              %h4 SRIKANTH
+              %p.text-muted Associate
+
+
+      .row
+        .col-sm-3
+          .team-member
+            %img.img-responsive.img-circle{:alt => "", :src => "/assets/muralee.jpg"}
+              %h4 MURALEE
+              %p.text-muted Associate
+
+
+        .col-sm-3
+          .team-member
+            %img.img-responsive.img-circle{:alt => "", :src => "/assets/navya.jpg"}
+              %h4 NAVYA
+              %p.text-muted Associate
+
+        .col-sm-3
+          .team-member
+            %img.img-responsive.img-circle{:alt => "", :src => "/assets/priya.jpg"}
+              %h4 PRIYA
+              %p.text-muted Associate
+
+        .col-sm-3
+          .team-member
+            %img.img-responsive.img-circle{:alt => "", :src => "/assets/harika.jpg"}
+              -# oie_913323nHdW8R7u.jpg
+              %h4 HARIKA
+              %p.text-muted Associate Trainee
+
+
+      .row
+        .col-lg-8.col-lg-offset-2.text-center
+          %p.large.text-muted
+            
+  %section#contact
+    .container
+      .row
+        .col-lg-12.text-center
+          %h2.section-heading Contact Us
+          
+      %br
+      .row
+        .col-lg-12
+          .row
+            .col-md-6
+              %h1.white
+                %span.fa.fa-home
+                  IIIT-H Campus,
+                  %br
+                  %br
+                  &nbsp &nbsp 2nd Floor, Vindhya C4, 
+                  %br
+                  %br
+                  &nbsp &nbsp Gachibowli,
+                  %br
+                  %br
+                  &nbsp &nbsp Hyderabad-500032
+                  %br
+                  %br
+                %span.fa.fa-phone
+                  Contact: +91 9866402306 
+                  %br
+                  %br
+                %span.fa.fa-envelope
+                  info@ostryalabs.com
+                  %br
+                  %br
+                %span.fa.fa-globe
+                  www.ostryalabs.com
+            .col-md-6
+              %br
+              = form_for User.new, :html => { :class => "form-vertical", :role => "form", :id => "contactForm"}  do |f|
+                .form-group
+                  = f.text_field :name,:class => 'form-control', :placeholder => 'Name *', :id => "name"
+                  %p.help-block.text-danger
+                .form-group
+                  = f.text_field :email,:class => 'form-control', :placeholder => 'Email *', :id => "email"
+                  %p.help-block.text-danger
+                .form-group
+                  = f.text_area :details ,:class => 'form-control', :placeholder => 'Your Message *', :id => "message"
+                  %p.help-block.text-danger
+                %center
+                  #success
+                  %button.btn.btn-xl{:type => "submit"} Send Message
+    
+
+
+  %footer
+    .container
+      .row
+        .col-md-4
+        .col-md-4
+          %ul.list-inline.social-buttons
+            %li
+              %a{:href => "https://twitter.com/ostryalabs", :target => "_blank"}
+                %i.fa.fa-twitter
+            %li
+              %a{:href => "mailto:info@ostryalabs.com", :target => "_blank"}
+                %i.fa.fa-envelope
+                
+            %li
+              %a{:href => "https://www.linkedin.com/company/2223295?trk=tyah&trkInfo=idx%3A1-1-1%2CtarId%3A1423481245714%2Ctas%3AOstrya+L"}
+                %i.fa.fa-linkedin
+       
+        .col-md-4
+          
+          %span.copyright
+            Copyright &copy; #{link_to 'OstryaLabs', 'http://www.ostryalabs.com', target: '_blank'} 2012
+  
+    / jQuery Version 1.11.0
+  %script{:src => "https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/jquery-1.11.0.js"}
+  / Bootstrap Core JavaScript
+  %script{:src => "https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/bootstrap.min.js"}
+  / Plugin JavaScript
+  %script{:src => "http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"}
+  %script{:src => "https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/classie.js"}
+  %script{:src => "https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/cbpAnimatedHeader.js"}
+  / Contact Form JavaScript
+  %script{:src => "https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/jqBootstrapValidation.js"}
+  %script{:src => "https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/contact_me.js"}
+  %span{:style => "height: 20px; width: 40px; min-height: 20px; min-width: 40px; position: absolute; opacity: 0.85; z-index: 8675309; display: none; cursor: pointer; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAUCAYAAAD/Rn+7AAADU0lEQVR42s2WXUhTYRjHz0VEVPRFUGmtVEaFUZFhHxBhsotCU5JwBWEf1EWEEVHQx4UfFWYkFa2biPJiXbUta33OXFtuUXMzJ4bK3Nqay7m5NeZq6h/tPQ+xU20zugjOxR/+7/O8539+5znnwMtNTExwJtMb3L/fiLv3botCSmUjeCaejTOb39AiFothfHxcFIrHY8RksZjBsckJcOIRMfFsHD/SsbExUYpnI8DR0dGUGjSb0byhEJp5Uqg5CTSzc2CQleJbMEj9/ywBcGRkJEk9DQqouEVQT1sK444yWI9UonmTjGqauVLEIlHa9x8lAMbj8SSpp0rwKGMVvg8P46vbg0C7na8z8JsMcgHe7jlEa+edRhiLy8n/TUMfu6EvLElk+U0WtGwrTrdfAGQf5J8iiK4LVzDU28t8JtMSocf8E+l68myaNFXm/6rXslLK7ay5TOunuRvZWpJuvwAYjUaTpOIWoquuAZ219RTaxKYp9BbjycoN5FvL9qH9TBX5rvoGdJythvXYSTxdtRnWylO/ZdqrLsGwszzhWQ593z2KlAwCYCQSSZJ6ehZ0W7bD9VBLgN0NCqr3qR7R2rBrL3pu3Sb/7nDlz2uy6cG0OXk0GTbZXzNp8trsPAQdTj6frlWzN2DcXZGKQQAMh8NJ6rpyHe+PnkCr/CAFdZyvpfpjuvkifLF9wIt1Wwlo0OHie1RvWrKa93RjzfzliTzPKz3ltB0/Tevmwp14wGUgHAzSOoUEwFAolFaaBSuhnslPRkJexUJtZ6v5HtUeLswl33n1BgEY5fvhs9sJ3FAiT+QYyyvoAQJuD0KBAFRTJNAuz5/s3gJgMBhMJwrVFRThM5tY5zUF/A4X1f2fvQTRLCuBreoim0YmAbqNJryvPEXeeq46kaNdkQ/1HCncbJKPs9ZSv2VHGfWsZ2hfkhKAfr8/pdxWKx4wwD69PmVfNSOL+lr2w+gYqHpWDtXt1xQ8AMlWU0e1lqLd/APRHoP8AJqWrQG9gYxcPMsvSJUvAA4MDKTUJ7MZLaVy8v+qT21tcDx/OemePr0RTkNrur4A6PP5xCgBsL+/X4wiQDpuuVxOeL1eMYmYeDY6sOp0z+B0OuHxeEQhxkJMFosJiSO/UinOI/8Pc+l7KKArAT8AAAAASUVORK5CYII=);"}

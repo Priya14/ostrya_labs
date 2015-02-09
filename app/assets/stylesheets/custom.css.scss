@@ -46,14 +46,14 @@ a.active {
 }
 
 
-h2,
-h3,
-h5,
-h6 {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-}
+/* h2, */
+/* h3, */
+/* h5, */
+/* h6 { */
+/*     text-transform: uppercase; */
+/*     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; */
+/*     font-weight: 700; */
+/* } */
 
 .img-centered {
     margin: 0 auto;
@@ -204,7 +204,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .nav li a {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 100;
     font-size: 1.2em;
@@ -870,7 +870,7 @@ body {
   display: block;
   width: 100%;
   overflow: hidden;
-  height: 25rem;
+  height: 20rem;
   
   .slideContainer {
     @include transition(0.35s);

@@ -42,3 +42,4 @@ gem 'bootstrap-sass', '~> 3.3.0.1'
 gem 'bootstrap', '~> 0.0.1'
 gem 'jquery-ui-rails'
 gem "font-awesome-rails"
+gem 'rails_12factor', group: :production

@@ -1,20 +1,35 @@
-@media(max-width:480px) {
+@media(max-width:320px) {
     .content {
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  border-radius: 10px;
-  position: relative;
-  float: left;
-  margin-left: 20px;
-  padding: 15px 25px;
-  width: 210px;
-  border-width: 1px 4px 4px 3px;
-  border-style: solid;
-  border-color: #c8c7b4;
-  background-color: #ece5bd;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        border-radius: 10px;
+        position: relative;
+        float: left;
+        margin-left: 20px;
+        padding: 15px 25px;
+        width: 210px;
+        border-width: 1px 4px 4px 3px;
+        border-style: solid;
+        border-color: #c8c7b4;
+        background-color: #ece5bd;
     }
+    header {
+        text-align: left;
+        color: #fff;
+        background-attachment: scroll;
+        background-image: url('/assets/clean_code_matters_ruby.png');
+        background-position: center center;
+        background-repeat: none;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+       
+}
+
+
 }
 #messages {
   position: relative;
@@ -101,14 +116,6 @@
   -o-border-radius: 50%;
   border-radius: 50%;
   width: 100%; }
-
-/* =============================================== /*
-/*                                                 /* 
-/*      + SVG sprite (social media icons ).        /*
-/*      + You can use PNG if your navigator don't  /*
-/*        support SVG format.                      /*
-/*                                                 /*
-/* =============================================== */
 
 .sprite {
   background: url("http://download1497.mediafire.com/m0btyhq77l9g/b3rgcl4p4wlmd7x/sprite.svg") no-repeat;
@@ -482,19 +489,19 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
-/* header { */
-/*     text-align: left; */
-/*     color: #fff; */
-/*     background-attachment: scroll; */
-/*     background-image: url('/assets/clean_code_matters_ruby.png'); */
-/*     background-position: center center; */
-/*     background-repeat: none; */
-/*     -webkit-background-size: cover; */
-/*     -moz-background-size: cover; */
-/*     background-size: cover; */
-/*     -o-background-size: cover; */
-/*     width: 100%; */
-/* } */
+header {
+    text-align: left;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url('/assets/clean_code_matters_ruby.png');
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+}
 
 header .intro-text {
     /* padding-top: 100px; */

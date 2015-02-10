@@ -470,7 +470,7 @@ fieldset[disabled] .btn-xl.active {
 /*     width: 100%; */
 /* } */
 header {
-    @media(min-width: 480px) {
+    @media(max-width: 480px) {
         margin-top: 70px;
     }
     img {
@@ -863,7 +863,7 @@ section h3.section-subheading {
 
 section#contact {
     background-color: #222;
-    background-image: url(https://unsplash.imgix.net/44/C3EWdWzT8imxs0fKeKoC_blackforrest.JPG?q=75&fm=jpg&auto=format&s=986aaa92169d4e97975fa66ebd60bafd);
+    background-image: url('/assets/C3EWdWzT8imxs0fKeKoC_blackforrest.jpg');
     background-position: center;
     background-repeat: no-repeat;
 }

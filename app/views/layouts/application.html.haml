@@ -7,16 +7,7 @@
     = csrf_meta_tags
     = favicon_link_tag 'favicon.ico'
     %meta{:content => "user-scalable=0, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi", :name => "viewport"}/
-    :javascript
-      (function() {
-      if ("-ms-user-select" in document.documentElement.style && navigator.userAgent.match(/IEMobile\/10\.0/)) {
-      var msViewportStyle = document.createElement("style");
-      msViewportStyle.appendChild(
-      document.createTextNode("@-ms-viewport{width:auto!important}")
-      );
-      document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
-      }
-      })();
+    %meta{:content => "true", :name => "HandheldFriendly"}/
   %body
     - flash.each do |key, value|
       = content_tag(:div,value,:class => "#{flash_alert_class(key)}")

@@ -8,6 +8,7 @@
     = favicon_link_tag 'favicon.ico'
     %meta{:content => "user-scalable=0, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi", :name => "viewport"}/
     %meta{:content => "true", :name => "HandheldFriendly"}/
+    %meta{:content => "initial-scale=2.3, user-scalable=no", :name => "viewport"}/
   %body
     - flash.each do |key, value|
       = content_tag(:div,value,:class => "#{flash_alert_class(key)}")

@@ -131,7 +131,7 @@
           %h2.section-heading Technologies
 
       .row
-        .col-md-4.col-sm-6.portfolio-item
+        .col-md-3.col-sm-6.portfolio-item
           %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal1"}
             -# .portfolio-hover
             -#   .portfolio-hover-content
@@ -140,8 +140,7 @@
             .portfolio-caption
               %p
                 = link_to "Learn here...!" , 'http://rubyonrails.org/', :target => "_blank"
-              
-        .col-md-4.col-sm-6.portfolio-item
+        .col-md-3.col-sm-6.portfolio-item
           %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal2"}
             -# .portfolio-hover
             -#   .portfolio-hover-content
@@ -150,7 +149,7 @@
             .portfolio-caption
               %p
                 = link_to "Learn here..!","https://docs.angularjs.org/tutorial", :target => "_blank"
-        .col-md-4.col-sm-6.portfolio-item
+        .col-md-3.col-sm-6.portfolio-item
           %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal3"}
             -# .portfolio-hover
             -#   .portfolio-hover-content
@@ -159,9 +158,26 @@
             .portfolio-caption
               %p
                 = link_to "Learn here..!" , "http://www.postgresql.org/", :target => "_blank"
-
-        .col-md-4.col-sm-6.portfolio-item
+        .col-md-3.col-sm-6.portfolio-item
           %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal4"}
+            -# .portfolio-hover
+            -#   .portfolio-hover-content
+            -#     %i.fa.fa-plus.fa-3x
+            %img.img-responsive{:alt => "", :src => "/assets/node.png"}
+            .portfolio-caption
+              %p
+                = link_to "Learn here..!" , "https://nodejs.org/", :target => "_blank"
+        .col-md-3.col-sm-6.portfolio-item
+          %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal5"}
+            -# .portfolio-hover
+            -#   .portfolio-hover-content
+            -#     %i.fa.fa-plus.fa-3x
+            %img.img-responsive{:alt => "", :src => "/assets/android_logo.jpg"}
+            .portfolio-caption
+              %p
+                = link_to "Learn here..!" , "https://www.android.com/", :target => "_blank"
+        .col-md-3.col-sm-6.portfolio-item
+          %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal6"}
             -# .portfolio-hover
             -#   .portfolio-hover-content
             -#     %i.fa.fa-plus.fa-3x
@@ -169,8 +185,8 @@
             .portfolio-caption
               %p
                 = link_to "Learn here..! ", "http://www.w3.org/TR/html5/", :target => "_blank"
-        .col-md-4.col-sm-6.portfolio-item
-          %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal5"}
+        .col-md-3.col-sm-6.portfolio-item
+          %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal7"}
             -# .portfolio-hover
             -#   .portfolio-hover-content
             -#     %i.fa.fa-plus.fa-3x
@@ -178,8 +194,8 @@
             .portfolio-caption
               %p
                 = link_to "Learn here...!" , 'http://www.w3.org/Style/CSS/Overview.en.html', :target => "_blank"
-        .col-md-4.col-sm-6.portfolio-item
-          %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal6"}
+        .col-md-3.col-sm-6.portfolio-item
+          %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal8"}
             -# .portfolio-hover
             -#   .portfolio-hover-content
             -#     %i.fa.fa-plus.fa-3x
@@ -375,56 +391,62 @@
 
       
       .row
-        .col-sm-3
+        .col-sm-4
           .team-member
             %img.img-responsive.img-circle{:alt => "", :src => "/assets/gopika.jpg"}
               %h4 GOPIKA 
               %p.text-muted Director & CEO
 
-        .col-sm-3
+        .col-sm-4
           .team-member
             %img.img-responsive.img-circle{:alt => "", :src => "/assets/arun.jpg"}
               %h4 ARUN 
               %p.text-muted Founder & Technical Advisor
 
-        .col-sm-3
+        .col-sm-4
           .team-member
             %img.img-responsive.img-circle{:alt => "", :src => "/assets/hari.jpg"}
               %h4 SRIHARI 
-              %p.text-muted Director, Marketing
-        .col-sm-3
+              %p.text-muted Director & Marketing
+      .row
+        .col-sm-4
           .team-member
             %img.img-responsive.img-circle{:alt => "", :src => "/assets/srikanth.jpg"}
               %h4 SRIKANTH
               %p.text-muted Associate
 
-
-      .row
-        .col-sm-3
+        .col-sm-4
           .team-member
             %img.img-responsive.img-circle{:alt => "", :src => "/assets/muralee.jpg"}
               %h4 MURALEE
               %p.text-muted Associate
 
 
-        .col-sm-3
+        .col-sm-4
           .team-member
             %img.img-responsive.img-circle{:alt => "", :src => "/assets/navya.jpg"}
               %h4 NAVYA
               %p.text-muted Associate
-
-        .col-sm-3
+      .row
+        .col-sm-4
           .team-member
-            %img.img-responsive.img-circle{:alt => "", :src => "/assets/priya.jpg"}
-              %h4 PRIYA
-              %p.text-muted Associate
-
-        .col-sm-3
-          .team-member
-            %img.img-responsive.img-circle{:alt => "", :src => "/assets/harika.jpg"}
+            %img.img-responsive.img-circle{:alt => "", :src => "/assets/new_harika.jpg"}
               -# oie_913323nHdW8R7u.jpg
               %h4 HARIKA
-              %p.text-muted Associate Trainee
+              %p.text-muted Associate 
+
+        .col-sm-4
+          .team-member
+            %img.img-responsive.img-circle{:alt => "", :src => "/assets/pavan.jpg"}
+              -# oie_913323nHdW8R7u.jpg
+              %h4 PAVAN
+              %p.text-muted Associate
+        .col-sm-4
+          .team-member
+            %img.img-responsive.img-circle{:alt => "", :src => "/assets/bhargav.jpg"}
+              -# oie_913323nHdW8R7u.jpg
+              %h4 BHARGAV
+              %p.text-muted Associate
 
 
       .row

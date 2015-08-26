@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://www.ostryalabs.com/</loc>
+</url>
+<url>
+  <loc>http://www.ostryalabs.com/home/grokking</loc>
+</url>
+<url>
+  <loc>http://www.ostryalabs.com/home/postgres</loc>
+</url>
+<url>
+  <loc>http://www.ostryalabs.com/home/barman</loc>
+</url>
+<url>
+  <loc>http://www.ostryalabs.com/home/hexagon</loc>
+</url>
+<url>
+  <loc>http://www.ostryalabs.com/home/callback</loc>
+</url>
+<url>
+  <loc>http://www.ostryalabs.com/home/queries</loc>
+</url>
+<url>
+  <loc>http://www.ostryalabs.com/home/vim</loc>
+</url>
+<url>
+  <loc>http://www.ostryalabs.com/home/rspecs</loc>
+</url>
+<url>
+  <loc>http://www.ostryalabs.com/home/ruby_on_rails_guide</loc>
+</url>
+<url>
+  <loc>http://www.ostryalabs.com/home/setup</loc>
+</url>
+</urlset>
